@@ -177,23 +177,7 @@ to{
 }
 
 }
-/* .wrap{
-   
-   margin:0px 0px 0px 0px;
-    padding-top: 0px 0px 0px 0px;
-    z-index: 1;
-   
-   
-    
-    
-}  */
 
-/* .wrap:hover{
-    animation: movement1 1s linear forwards;
-    
+.cliked{
+    animation:movement1 1s linear forwards ;
 }
- .wrap:active{
-    letter-spacing: 100px;
-   
- }
-     */
