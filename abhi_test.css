@@ -148,16 +148,16 @@ float:0 auto;
 /* border:dotted; */
 margin:0px;
 padding-top: 100px;
-//width:100px;
+/* width:100px; */
 
 
  } 
 
  .jh:hover{
-   // margin: 200px;
-    //width:100px;
-   // transform: rotate(360deg);
-   // transition: .5s;
+    /* margin: 200px;
+    width:100px;
+  transform: rotate(360deg);
+  transition: .5s; */
     color:red;
     transition-delay: .5s;
     opacity: 0;
