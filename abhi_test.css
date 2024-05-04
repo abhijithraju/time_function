@@ -177,8 +177,8 @@ to{
 }
 
 }
-.wrap{
-    /* border: dotted; */
+/* .wrap{
+   
    margin:0px 0px 0px 0px;
     padding-top: 0px 0px 0px 0px;
     z-index: 1;
@@ -186,9 +186,9 @@ to{
    
     
     
-} 
+}  */
 
-.wrap:hover{
+/* .wrap:hover{
     animation: movement1 1s linear forwards;
     
 }
@@ -196,4 +196,4 @@ to{
     letter-spacing: 100px;
    
  }
-    
+     */
