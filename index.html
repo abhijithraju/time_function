@@ -6,22 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>abhi_time</title>
   <link rel="stylesheet" href="abhi_test.css">
-  <meta http-equiv="refresh" content="5">
- 
+  <!-- <meta http-equiv="refresh" content="5"> 
+  -->
 
 </head>
 
 <body>
   <div class="wrap">
-    <form  action="" id="gg" class="forms" onclick="clickto()">
+    <form action="" id="gg" class="forms" onclick="clickto()">
       <div class="jh">
         <pre>
-      8888888888   
+      8888888888  
           88       
           88      
           88
           88
-          88
+          88     
 
 
 
@@ -81,36 +81,49 @@
 </html>
 <script>
 
+
+
   function clickto() {
 
     let y = "<pre>"
     let k = "</pre>"
     let m = ' <div class="jh">'
     let o = "</div>"
-    z = ((((document.getElementById("gg").innerHTML).replaceAll(y,8)).replaceAll(k, 8)).replaceAll(m,8)).replaceAll(o,8);
+    let p=document.getElementById("gg").innerHTML
+    a=p[45]
+    z = ((((document.getElementById("gg").innerHTML).replaceAll(y, a)).replaceAll(k, a)).replaceAll(m, a)).replaceAll(o, a);
     document.getElementById("gg").innerHTML = z;
 
   }
 
-  let x = Math.floor(Math.random() * 10) / 1;
-
-
-  let r = (document.getElementById("gg").innerHTML).replaceAll(8, x);
-  document.getElementById("gg").innerHTML = r;
-  c = x;
-
-
-
-  setInterval()
-
-
-  //alert(z);
 
 
 
 
+  // c = x;
+  
+  // for (let i = 0, i< 10, i++) {
+  //   if (i = c) {
+  //     let j = Math.floor(Math.random() * 10) / 1;
+  //     r = (document.getElementById("gg").innerHTML).replaceAll(c, j);
+  //     document.getElementById("gg").innerHTML = r;
+  //     c = j;
+  //   }
 
-  //let result=text.replace('8', '9');
-  //document.getElementById("g13").innerHTML = Math.floor(Math.random() * 100) / 1000;},1000)
+  // }
+ 
+  setInterval(() => {
+    
+    let x = Math.floor(Math.random() * 10) / 1;
+    let o=document.getElementById("gg").innerHTML;
+    let w=o[47];
+   let r = (document.getElementById("gg").innerHTML).replaceAll(w,x);
+   document.getElementById("gg").innerHTML = r;
+
+
+  }, 1000)
+
+
+
 
 </script>
