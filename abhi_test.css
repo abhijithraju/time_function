@@ -191,9 +191,13 @@ to{
 /* .wrap:hover{
     animation: movement1 1s linear forwards;
     
-}
- .wrap:active{
-    letter-spacing: 100px;
-   
- } */
+} */
+ /* .wrap:active{
     
+    animation: movement1 1s linear ;
+   
+ }
+     */
+.cliked{
+    animation:movement1 1s linear forwards ;
+}

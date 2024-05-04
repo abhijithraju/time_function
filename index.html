@@ -82,17 +82,19 @@
 <script>
 
 
-
+(document.getElementById("gg")).addEventListener('click',function(){this.classList.add('cliked')});
   function clickto() {
+
 
     let y = "<pre>"
     let k = "</pre>"
     let m = ' <div class="jh">'
     let o = "</div>"
     let p=document.getElementById("gg").innerHTML
-    a=p[45]
+    a=p[47]
     z = ((((document.getElementById("gg").innerHTML).replaceAll(y, a)).replaceAll(k, a)).replaceAll(m, a)).replaceAll(o, a);
     document.getElementById("gg").innerHTML = z;
+
 
   }
 
