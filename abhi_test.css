@@ -141,13 +141,14 @@ body{
 
 
  .forms{
-display: flex;
-float:0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
 
 
 /* border:dotted; */
-margin:0px;
-padding-top: 100px;
+margin:5%;
+
+text-align: center;
 /* width:100px; */
 
 
@@ -190,10 +191,16 @@ padding-top: 100px;
 .cliked{
     animation:movement1 5s  ;
    
-    
-   /* fix branch */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+        
+   
   
-}
+} 
+
+/* fix branch */
 
 @media screen and (max-width:440px) {
 
