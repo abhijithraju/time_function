@@ -181,3 +181,18 @@ to{
 .cliked{
     animation:movement1 1s linear forwards ;
 }
+
+@media screen and (max-width:440px) {
+
+.forms{
+    display: grid;
+   grid-template-columns: 1fr;
+   text-align: center;
+   margin-left: 50px;
+   padding-right: 50px;
+   margin-right: 50px;
+
+}
+
+    
+};
