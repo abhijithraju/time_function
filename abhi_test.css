@@ -141,8 +141,10 @@ body{
 
 
  .forms{
-display: flex;
-float:0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+/* display: flex;
+float:0 auto; */
 
 
 /* border:dotted; */
@@ -204,6 +206,7 @@ padding-top: 100px;
    margin-left: 50px;
    padding-right: 50px;
    margin-right: 50px;
+   padding-top:50px;
 
 }
 
