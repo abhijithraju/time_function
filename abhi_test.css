@@ -194,13 +194,12 @@ float:0 auto; */
 }
 
 
-.cliked {
-    animation: movement1 5s;
-
-
-    display: grid;
-    grid-template-columns: 1fr;
-
+.cliked{
+    animation:movement1 5s  ;
+   
+    
+   
+  
 }
 
 @media screen and (max-width:440px) {
