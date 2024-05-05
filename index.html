@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>abhi_time</title>
   <link rel="stylesheet" href="abhi_test.css">
-   <meta http-equiv="refresh" content="10"> 
+   <!-- <meta http-equiv="refresh" content="10">  -->
   
 
 </head>
@@ -79,7 +79,8 @@
 <script>
 
 
-(document.getElementById("gg")).addEventListener('click',function(){this.classList.add('cliked')});
+  (document.getElementById("gg")).addEventListener('click',function(){this.classList.add('cliked')});
+  
   function clickto() {
 
 
@@ -91,11 +92,25 @@
     a=p[47]
     z = ((((document.getElementById("gg").innerHTML).replaceAll(y, a)).replaceAll(k, a)).replaceAll(m, a)).replaceAll(o, a);
     document.getElementById("gg").innerHTML = z;
+   setTimeout(()=>{
+    document.getElementById("gg").innerHTML =p;
 
+   },5000);
 
   }
 
+  setInterval(() => {
+    
+    let x = Math.floor(Math.random() * 10) / 1;
+    let o=document.getElementById("gg").innerHTML;
+    let w=o[47];
+   let r = (document.getElementById("gg").innerHTML).replaceAll(w,x);
+   document.getElementById("gg").innerHTML = r;
 
+
+  }, 1000)
+  
+  
 
 
 
@@ -110,19 +125,6 @@
   //   }
 
   // }
- 
-  setInterval(() => {
-    
-    let x = Math.floor(Math.random() * 10) / 1;
-    let o=document.getElementById("gg").innerHTML;
-    let w=o[47];
-   let r = (document.getElementById("gg").innerHTML).replaceAll(w,x);
-   document.getElementById("gg").innerHTML = r;
-
-
-  }, 1000)
-
-
 
 
 </script>

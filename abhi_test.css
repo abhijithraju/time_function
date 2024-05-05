@@ -178,8 +178,23 @@ to{
 
 }
 
+@keyframes movement2 {
+    form{ transform: translateY(200px);
+    
+    
+    }
+    to{
+        transform:translateY(0px)
+    }
+    
+    }
+
 .cliked{
-    animation:movement1 1s linear forwards ;
+    animation:movement1 5s ease-out ;
+    animation-duration: 5s;
+    
+   
+  
 }
 
 @media screen and (max-width:440px) {
