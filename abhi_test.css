@@ -133,85 +133,88 @@ pre {
     font-family: monospace;
     white-space: pre;
     margin: 1em 0;
-  } 
-body{
+}
+
+body {
     overflow: hidden;
-    
+
 }
 
 
- .forms{
+.forms {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-/* display: flex;
+    /* display: flex;
 float:0 auto; */
 
 
-/* border:dotted; */
-margin:0px;
-padding-top: 100px;
-/* width:100px; */
+    /* border:dotted; */
+    margin: 0px;
+    padding-top: 100px;
+    /* width:100px; */
 
 
- } 
+}
 
- .jh:hover{
+.jh:hover {
     /* margin: 200px;
     width:100px;
   transform: rotate(360deg);
   transition: .5s; */
-    color:red;
+    color: red;
     transition-delay: .5s;
     opacity: 0;
     transition: 1s;
-   
-    
 
- }
+
+
+}
 
 @keyframes movement1 {
-0%{ transform: translateY(0px);
+    0% {
+        transform: translateY(0px);
 
 
-}
-30%{ 
-
-    transform: translateY(200px);
-}
-95%{
-   
-    transform: translateY(200px);
-}
-100%{
-    transform:translateY(0px)
-}
-
-}
-
-
-.cliked{
-    animation:movement1 5s  ;
-   
-    .forms{
-        display: grid;
-        grid-template-columns: 1fr;
     }
-   
-  
+
+    30% {
+
+        transform: translateY(200px);
+    }
+
+    95% {
+
+        transform: translateY(200px);
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+
+}
+
+
+.cliked {
+    animation: movement1 5s;
+
+
+    display: grid;
+    grid-template-columns: 1fr;
+
 }
 
 @media screen and (max-width:440px) {
 
-.forms{
-    display: grid;
-   grid-template-columns: 1fr;
-   text-align: center;
-   margin-left: 50px;
-   padding-right: 50px;
-   margin-right: 50px;
-   padding-top:50px;
+    .forms {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-left: 50px;
+        padding-right: 50px;
+        margin-right: 50px;
+        padding-top: 50px;
+
+    }
+
 
 }
-
-    
-};
